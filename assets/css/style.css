@@ -75,6 +75,14 @@ header nav a {
     color: #957554;
 }
 
+header div span {
+    display: block;
+    height: 3px;
+    width: 45px;
+    background-color: #957554;
+    margin: 6px 0;
+}
+
 header article {
     display: flex;
     flex-direction: column;
@@ -227,26 +235,24 @@ footer div p {
 footer nav {
     display: flex;
     flex-direction: column;
-line-height: 3rem;
+    line-height: 3rem;
 }
 
 footer form {
     display: flex;
     flex-direction: column;
-    width:30%
+    width: 30%
 }
 
 footer form h5 {
     padding-bottom: 3%;
 }
 
-footer form input{
+footer form input {
     border: none;
     padding: 4% 9%;
     margin: 5% 0;
-
-
-} 
+}
 
 footer form input[type="button"] {
     background-color: #DFAA5B;
